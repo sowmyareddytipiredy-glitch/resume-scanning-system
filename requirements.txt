@@ -1,0 +1,7 @@
+# Resume Screening System — Python dependencies
+# Pin exact versions for reproducibility.
+
+scikit-learn==1.5.2
+nltk==3.9.1
+hypothesis==6.115.6
+pytest==8.3.4

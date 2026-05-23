@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Pytest / Hypothesis
+.pytest_cache/
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro internal (spec metadata only — keep spec docs)
+.kiro/tasks/
+
+# Output files (generated at runtime)
+Output/
+ProcessedResumes/
+
+# Uploaded resumes (user data — don't commit)
+InputResumes/*.pdf
+InputResumes/*.docx
+JobDescription/job_description.txt
